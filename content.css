@@ -1,0 +1,26 @@
+.resubmit-assignments {
+    font-weight: bold;
+    color: #007bff;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.resubmit-assignments {
+    padding: 10px;
+    border-top: 1px solid #0000;
+}
+
+.resubmit-assignment h4 {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #00b0ff;
+}
+
+.resubmit-assignment p {
+    margin: 0;
+    font-size: 12px;
+    color: #0a9bf5;
+}

@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "APCS Redo",
+    "version": "1.0",
+    "description": "",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://fuhsd.schoology.com/*"],
+        "run_at": "document_idle",
+        "js": ["content.js"],
+        "css": ["content.css"]
+      }
+    ]
+  }
+  
